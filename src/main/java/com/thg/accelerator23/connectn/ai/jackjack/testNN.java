@@ -4,8 +4,8 @@ import com.thehutgroup.accelerator.connectn.player.Board;
 import com.thehutgroup.accelerator.connectn.player.Counter;
 import com.thehutgroup.accelerator.connectn.player.Player;
 
-public class testNN extends Player {
-	public testNN(Counter counter) {
+public class TestNN extends Player {
+	public TestNN(Counter counter) {
 		// TODO: fill in your name here
 		super(counter, NameAi.class.getName());
 	}
