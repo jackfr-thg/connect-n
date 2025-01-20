@@ -7,7 +7,7 @@ import com.thehutgroup.accelerator.connectn.player.Player;
 public class TestNN extends Player {
 	public TestNN(Counter counter) {
 		// TODO: fill in your name here
-		super(counter, NameAi.class.getName());
+		super(counter, TestNN.class.getName());
 	}
 
 	@Override
