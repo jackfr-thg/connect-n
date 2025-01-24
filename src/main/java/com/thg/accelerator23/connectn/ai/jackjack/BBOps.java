@@ -1,5 +1,8 @@
 package com.thg.accelerator23.connectn.ai.jackjack;
 
+import com.thehutgroup.accelerator.connectn.player.Board;
+import com.thehutgroup.accelerator.connectn.player.Counter;
+import com.thehutgroup.accelerator.connectn.player.Player;
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.ArrayList;
