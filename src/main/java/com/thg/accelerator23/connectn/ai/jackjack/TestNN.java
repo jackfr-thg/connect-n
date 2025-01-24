@@ -93,7 +93,7 @@ public class TestNN extends Player {
 	public int makeMove(Board inputBoard) {
 		long startTime = System.nanoTime();
 		BitBoard board = BBOps.convertToBitBoard(inputBoard, getCounter().toString());
-		long timeOut = startTime + 9800000000l;
+		long timeOut = startTime + 9600000000l;
 		List<Integer> availableMoves = getSortedAvailableMoves(board);
 
 		// System.out.println(availableMoves);
